@@ -5,6 +5,9 @@ on:
     branches:
       - main # 또는 'master', 사용 중인 브랜치명
 
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
